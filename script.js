@@ -10,7 +10,7 @@ form.addEventListener("submit", (event) => {
         return;
     }
 
-    const apikey = `e4dfb9ea33cb6565635b6c5bab0f47bf`;
+    const apikey = API key goes here;
     const url = `https://api.weatherstack.com/current?access_key=${apikey}&query=${CityName}`;
 
     fetch(url)
